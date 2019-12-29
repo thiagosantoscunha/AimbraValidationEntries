@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b38e10-44ee-4c87-b0f9-fb555129e945" name="Default Changelist" comment="" />
+    <list default="true" id="39b38e10-44ee-4c87-b0f9-fb555129e945" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/builders/UserBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/entities/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/TextValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/DataValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/DataValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/NumberValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/NumberValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/ObjectValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/ObjectValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/TextValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/TextValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/interfaces/IDataValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/DataValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/interfaces/INumberValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/NumberValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/interfaces/IObjectValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/ObjectValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/interfaces/ITextValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/TextValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/aimbraFluent/DataValidationImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/DataValidationImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/DataValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/NumberValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/ObjectValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/TextValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/interfaces/IDataValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/interfaces/INumberValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/interfaces/IObjectValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/interfaces/ITextValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aimbraFluent/DataValidationImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aimbraFluent/DataValidationImplTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="207" />
+    <option name="myElementSize" value="197" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,6 +52,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Vb2ZaeQl31YJqQ1SHh8TSmUDnp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,93 +73,97 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="aimbraFluent.services" />
       <recent name="aimbraFluent" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="aimbraFluent.exceptions" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="aimbraFluent" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\thiag\Desktop\AimbraValidationEntries\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="aimbraFluent.exceptions" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DataValidationImplTest">
-    <configuration name="DataValidationImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TextValidationTest.isNull_HasError_WithoutMessageError">
+    <configuration name="TextValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aimbraFluent.*" />
+          <option name="PATTERN" value="aimbraFluent.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.DataValidationImplTest" />
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidationImplTest.testIsWeekday_WithWeedayParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.isNotNullAndEmpty_WithError_WithoutMessageError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aimbraFluent.*" />
+          <option name="PATTERN" value="aimbraFluent.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.DataValidationImplTest" />
-      <option name="METHOD_NAME" value="testIsWeekday_WithWeedayParam" />
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
+      <option name="METHOD_NAME" value="isNotNullAndEmpty_WithError_WithoutMessageError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidationImplTest.testIsWeekday_WithWeekendParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.isNull_HasError_WithoutMessageError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aimbraFluent.*" />
+          <option name="PATTERN" value="aimbraFluent.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.DataValidationImplTest" />
-      <option name="METHOD_NAME" value="testIsWeekday_WithWeekendParam" />
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
+      <option name="METHOD_NAME" value="isNull_HasError_WithoutMessageError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidationImplTest.testIsWeekend_WithLocalDateParam_WithWeekday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.testInvalidLength_WithErrorRange_WithMessageError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aimbraFluent.*" />
+          <option name="PATTERN" value="aimbraFluent.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.DataValidationImplTest" />
-      <option name="METHOD_NAME" value="testIsWeekend_WithLocalDateParam_WithWeekday" />
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
+      <option name="METHOD_NAME" value="testInvalidLength_WithErrorRange_WithMessageError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidationImplTest.testIsWeekend_WithLocalDateParam_WithWeekend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.testInvalidLength_WithoutError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aimbraFluent.*" />
+          <option name="PATTERN" value="aimbraFluent.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.DataValidationImplTest" />
-      <option name="METHOD_NAME" value="testIsWeekend_WithLocalDateParam_WithWeekend" />
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
+      <option name="METHOD_NAME" value="testInvalidLength_WithoutError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataValidationImplTest" />
-        <item itemvalue="JUnit.DataValidationImplTest.testIsWeekend_WithLocalDateParam_WithWeekend" />
-        <item itemvalue="JUnit.DataValidationImplTest.testIsWeekend_WithLocalDateParam_WithWeekday" />
-        <item itemvalue="JUnit.DataValidationImplTest.testIsWeekday_WithWeedayParam" />
-        <item itemvalue="JUnit.DataValidationImplTest.testIsWeekday_WithWeekendParam" />
+        <item itemvalue="JUnit.TextValidationTest.isNull_HasError_WithoutMessageError" />
+        <item itemvalue="JUnit.TextValidationTest" />
+        <item itemvalue="JUnit.TextValidationTest.isNotNullAndEmpty_WithError_WithoutMessageError" />
+        <item itemvalue="JUnit.TextValidationTest.testInvalidLength_WithoutError" />
+        <item itemvalue="JUnit.TextValidationTest.testInvalidLength_WithErrorRange_WithMessageError" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +201,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577507529833</updated>
-      <workItem from="1577507532927" duration="4953000" />
+      <workItem from="1577507532927" duration="5320000" />
+      <workItem from="1577552118190" duration="7605000" />
+      <workItem from="1577627541683" duration="11209000" />
     </task>
     <servers />
   </component>
@@ -182,42 +215,54 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="873" y="360" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1577507559328" />
-    <state x="1086" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1577508241159">
+    <state x="1086" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1577580978711">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1086" y="411" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1577508241159" />
-    <state width="2517" height="155" key="GridCell.Tab.0.bottom" timestamp="1577512499698">
+    <state x="1086" y="411" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1577580978711" />
+    <state x="886" y="627" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577552237380">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499698" />
-    <state width="2517" height="155" key="GridCell.Tab.0.center" timestamp="1577512499697">
+    <state x="886" y="627" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577552237380" />
+    <state x="1078" y="561" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577552185711">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499697" />
-    <state width="2517" height="155" key="GridCell.Tab.0.left" timestamp="1577512499697">
+    <state x="1078" y="561" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1577552185711" />
+    <state width="401" height="466" key="DebuggerActiveHint" timestamp="1577631466886">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499697" />
-    <state width="2517" height="155" key="GridCell.Tab.0.right" timestamp="1577512499698">
+    <state width="401" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1577631466886" />
+    <state width="2517" height="464" key="GridCell.Tab.0.bottom" timestamp="1577643242090">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499698" />
-    <state width="2517" height="155" key="GridCell.Tab.1.bottom" timestamp="1577512499698">
+    <state width="2517" height="464" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242090" />
+    <state width="2517" height="464" key="GridCell.Tab.0.center" timestamp="1577643242089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499698" />
-    <state width="2517" height="155" key="GridCell.Tab.1.center" timestamp="1577512499698">
+    <state width="2517" height="464" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242089" />
+    <state width="2517" height="464" key="GridCell.Tab.0.left" timestamp="1577643242089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499698" />
-    <state width="2517" height="155" key="GridCell.Tab.1.left" timestamp="1577512499698">
+    <state width="2517" height="464" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242089" />
+    <state width="2517" height="464" key="GridCell.Tab.0.right" timestamp="1577643242090">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499698" />
-    <state width="2517" height="155" key="GridCell.Tab.1.right" timestamp="1577512499698">
+    <state width="2517" height="464" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242090" />
+    <state width="2517" height="464" key="GridCell.Tab.1.bottom" timestamp="1577643242090">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="155" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577512499698" />
+    <state width="2517" height="464" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242090" />
+    <state width="2517" height="464" key="GridCell.Tab.1.center" timestamp="1577643242090">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="464" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242090" />
+    <state width="2517" height="464" key="GridCell.Tab.1.left" timestamp="1577643242090">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="464" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242090" />
+    <state width="2517" height="464" key="GridCell.Tab.1.right" timestamp="1577643242090">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="464" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577643242090" />
     <state x="811" y="357" key="Maven.ArtifactSearchDialog" timestamp="1577507654503">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -226,22 +271,28 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="761" y="276" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577507768333" />
-    <state x="1045" y="405" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577508142637">
+    <state x="1045" y="405" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577552300888">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1045" y="405" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577508142637" />
+    <state x="1045" y="405" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577552300888" />
     <state x="731" y="404" key="new project wizard" timestamp="1577508114101">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="731" y="404" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1577508114101" />
-    <state x="937" y="331" key="run.anything.popup" timestamp="1577511324595">
+    <state x="937" y="331" width="672" height="677" key="run.anything.popup" timestamp="1577642954070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1577511324595" />
+    <state x="937" y="331" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1577642954070" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AimbraValidationEntries$DataValidationImplTest.ic" NAME="DataValidationImplTest Coverage Results" MODIFIED="1577512499640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>aimbraFluent.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AimbraValidationEntries$TextValidationTest_isNull_HasError_WithoutMessageError.ic" NAME="TextValidationTest.isNull_HasError_WithoutMessageError Coverage Results" MODIFIED="1577643242043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aimbraFluent.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AimbraValidationEntries$TextValidationTest.ic" NAME="TextValidationTest Coverage Results" MODIFIED="1577630329621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aimbraFluent.services.*</FILTER>
     </SUITE>
   </component>
 </project>

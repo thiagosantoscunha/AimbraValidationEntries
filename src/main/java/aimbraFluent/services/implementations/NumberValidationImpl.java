@@ -1,9 +1,9 @@
-package aimbraFluent;
+package aimbraFluent.services.implementations;
 
+import aimbraFluent.services.NumberValidation;
 import aimbraFluent.exceptions.BadRequestException;
-import aimbraFluent.interfaces.INumberValidation;
 
-public class NumberValidationImpl implements INumberValidation {
+public class NumberValidationImpl implements NumberValidation {
     @Override
     public boolean isNull(Number value) {
         return value == null;

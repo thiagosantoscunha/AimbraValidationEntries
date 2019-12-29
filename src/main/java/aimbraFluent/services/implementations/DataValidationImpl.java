@@ -1,8 +1,8 @@
-package aimbraFluent;
+package aimbraFluent.services.implementations;
 
 
+import aimbraFluent.services.DataValidation;
 import aimbraFluent.exceptions.BadRequestException;
-import aimbraFluent.interfaces.IDataValidation;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,7 +10,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class DataValidationImpl implements IDataValidation {
+public class DataValidationImpl implements DataValidation {
 
     SimpleDateFormat patternDateFormat = new SimpleDateFormat("yyyy-MM-dd");
     SimpleDateFormat patternHourFormat = new SimpleDateFormat("HH:mm:s");

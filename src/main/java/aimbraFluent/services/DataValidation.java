@@ -1,9 +1,9 @@
-package aimbraFluent.interfaces;
+package aimbraFluent.services;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
-public interface IDataValidation {
+public interface DataValidation {
     void isInvalidDateFormatFromString(String dataString);
     void isInvalidDateFormatFromString(String dataString, String messageError);
     void isInvalidHourFormatFromString(String hourString);

@@ -1,6 +1,6 @@
-package aimbraFluent.interfaces;
+package aimbraFluent.services;
 
-public interface IObjectValidation {
+public interface ObjectValidation {
     boolean isNull(Object o);
     boolean isNull(Object o, String messageError);
     boolean isNotNull(Object o);

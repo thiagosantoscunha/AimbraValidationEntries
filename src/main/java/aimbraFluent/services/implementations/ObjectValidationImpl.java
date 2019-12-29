@@ -1,9 +1,9 @@
-package aimbraFluent;
+package aimbraFluent.services.implementations;
 
+import aimbraFluent.services.ObjectValidation;
 import aimbraFluent.exceptions.BadRequestException;
-import aimbraFluent.interfaces.IObjectValidation;
 
-public class ObjectValidationImpl implements IObjectValidation {
+public class ObjectValidationImpl implements ObjectValidation {
 
     @Override
     public boolean isNull(Object o) {

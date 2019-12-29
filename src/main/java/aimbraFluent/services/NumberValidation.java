@@ -1,6 +1,6 @@
-package aimbraFluent.interfaces;
+package aimbraFluent.services;
 
-public interface INumberValidation {
+public interface NumberValidation {
 
     boolean isNull(Number value);
     void isNull(Number value, String messageError);
