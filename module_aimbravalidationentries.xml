@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_aimbravalidationentries" default="compile.module.aimbravalidationentries">
+  <dirname property="module.aimbravalidationentries.basedir" file="${ant.file.module_aimbravalidationentries}"/>
+  
+  <property name="module.jdk.home.aimbravalidationentries" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.aimbravalidationentries" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.aimbravalidationentries" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.aimbravalidationentries" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="aimbravalidationentries.output.dir" value="${module.aimbravalidationentries.basedir}/target/classes"/>
+  <property name="aimbravalidationentries.testoutput.dir" value="${module.aimbravalidationentries.basedir}/target/test-classes"/>
+  
+  <path id="aimbravalidationentries.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="aimbravalidationentries.module.production.classpath">
+    <path refid="${module.jdk.classpath.aimbravalidationentries}"/>
+  </path>
+  
+  <path id="aimbravalidationentries.runtime.production.module.classpath">
+    <pathelement location="${aimbravalidationentries.output.dir}"/>
+  </path>
+  
+  <path id="aimbravalidationentries.module.classpath">
+    <path refid="${module.jdk.classpath.aimbravalidationentries}"/>
+    <pathelement location="${aimbravalidationentries.output.dir}"/>
+    <path refid="library.maven:_org.junit.jupiter:junit-jupiter-engine:5.5.2.classpath"/>
+    <path refid="library.maven:_org.apiguardian:apiguardian-api:1.1.0.classpath"/>
+    <path refid="library.maven:_org.junit.platform:junit-platform-engine:1.5.2.classpath"/>
+    <path refid="library.maven:_org.opentest4j:opentest4j:1.2.0.classpath"/>
+    <path refid="library.maven:_org.junit.platform:junit-platform-commons:1.5.2.classpath"/>
+    <path refid="library.maven:_org.junit.jupiter:junit-jupiter-api:5.5.2.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-library:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest:2.1.classpath"/>
+  </path>
+  
+  <path id="aimbravalidationentries.runtime.module.classpath">
+    <pathelement location="${aimbravalidationentries.testoutput.dir}"/>
+    <pathelement location="${aimbravalidationentries.output.dir}"/>
+    <path refid="library.maven:_org.junit.jupiter:junit-jupiter-engine:5.5.2.classpath"/>
+    <path refid="library.maven:_org.apiguardian:apiguardian-api:1.1.0.classpath"/>
+    <path refid="library.maven:_org.junit.platform:junit-platform-engine:1.5.2.classpath"/>
+    <path refid="library.maven:_org.opentest4j:opentest4j:1.2.0.classpath"/>
+    <path refid="library.maven:_org.junit.platform:junit-platform-commons:1.5.2.classpath"/>
+    <path refid="library.maven:_org.junit.jupiter:junit-jupiter-api:5.5.2.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-library:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest:2.1.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.aimbravalidationentries">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.aimbravalidationentries">
+    <patternset refid="excluded.from.module.aimbravalidationentries"/>
+  </patternset>
+  
+  <path id="aimbravalidationentries.module.sourcepath">
+    <dirset dir="${module.aimbravalidationentries.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="aimbravalidationentries.module.test.sourcepath">
+    <dirset dir="${module.aimbravalidationentries.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.aimbravalidationentries" depends="compile.module.aimbravalidationentries.production,compile.module.aimbravalidationentries.tests" description="Compile module AimbraValidationEntries"/>
+  
+  <target name="compile.module.aimbravalidationentries.production" depends="register.custom.compilers" description="Compile module AimbraValidationEntries; production classes">
+    <mkdir dir="${aimbravalidationentries.output.dir}"/>
+    <javac2 destdir="${aimbravalidationentries.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.aimbravalidationentries}/javac">
+      <compilerarg line="${compiler.args.aimbravalidationentries}"/>
+      <bootclasspath refid="aimbravalidationentries.module.bootclasspath"/>
+      <classpath refid="aimbravalidationentries.module.production.classpath"/>
+      <src refid="aimbravalidationentries.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.aimbravalidationentries"/>
+    </javac2>
+    
+    <copy todir="${aimbravalidationentries.output.dir}">
+      <fileset dir="${module.aimbravalidationentries.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.aimbravalidationentries.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.aimbravalidationentries.tests" depends="register.custom.compilers,compile.module.aimbravalidationentries.production" description="compile module AimbraValidationEntries; test classes" unless="skip.tests">
+    <mkdir dir="${aimbravalidationentries.testoutput.dir}"/>
+    <javac2 destdir="${aimbravalidationentries.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.aimbravalidationentries}/javac">
+      <compilerarg line="${compiler.args.aimbravalidationentries}"/>
+      <bootclasspath refid="aimbravalidationentries.module.bootclasspath"/>
+      <classpath refid="aimbravalidationentries.module.classpath"/>
+      <src refid="aimbravalidationentries.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.aimbravalidationentries"/>
+    </javac2>
+    
+    <copy todir="${aimbravalidationentries.testoutput.dir}">
+      <fileset dir="${module.aimbravalidationentries.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.aimbravalidationentries" description="cleanup module">
+    <delete dir="${aimbravalidationentries.output.dir}"/>
+    <delete dir="${aimbravalidationentries.testoutput.dir}"/>
+  </target>
+</project>

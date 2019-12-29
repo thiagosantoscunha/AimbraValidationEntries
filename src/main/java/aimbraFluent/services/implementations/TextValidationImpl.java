@@ -10,6 +10,7 @@ public class TextValidationImpl implements TextValidation {
     private String messageError;
     private Integer minLength;
     private Integer maxLength;
+    private Integer fixedLength;
 
     private TextValidationImpl() {}
 
@@ -20,6 +21,12 @@ public class TextValidationImpl implements TextValidation {
     private void isLessThenZero(Integer value) {
         if (value < 0)
             throw new BadRequestException("The value is less than zero");
+    }
+
+    @Override
+    public TextValidation whereFixedLentghIs(Integer fixedLength) {
+        this.fixedLength = fixedLength;
+        return this;
     }
 
     @Override
@@ -132,6 +139,25 @@ public class TextValidationImpl implements TextValidation {
         return this;
     }
 
+    @Override
+    public TextValidation sizeIsNotIqualsTo() {
+        if (fixedLength == null) {
+            throw new BadRequestException("Fixed length is null!");
+        }
+        isLessThenZero(fixedLength);
+        if (!fixedLength.equals(value.length())) {
+            if (messageError != null) {
+                throw new BadRequestException(messageError);
+            }
+            throw new BadRequestException("The size is not equals");
+        }
+        return this;
+    }
+
+    @Override
+    public TextValidation sizeIsIqualsTo() {
+        return null;
+    }
 
 
 //    @Override
