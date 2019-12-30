@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b38e10-44ee-4c87-b0f9-fb555129e945" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aimbravalidationentries.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aimbravalidationentries.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_aimbravalidationentries.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/TextValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/TextValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/TextValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/TextValidationImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/TextValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/TextValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/TextValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aimbraFluent/services/TextValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/TextValidationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/TextValidationImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aimbraFluent/services/TextValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aimbraFluent/services/TextValidationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +78,8 @@
       <recent name="aimbraFluent.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TextValidationTest.testLengthNotEquals_WithError_withMessageError_fixedLengthEquals">
-    <configuration name="TextValidationTest.testLengthNotEquals_WithError_withMessageError_fixedLengthEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TextValidationTest">
+    <configuration name="TextValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +89,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
       <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testLengthNotEquals_WithError_withMessageError_fixedLengthEquals" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AimbraValidationEntries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aimbraFluent.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
+      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
       <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testLengthNotEquals_WithError_withoutMessageError_fixedLengthEquals" />
+      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
       <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testLengthNotEquals_WithError_withoutMessageError_fixedLengthIsNull" />
+      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthLessThenZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -137,23 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
       <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testLengthNotEquals_WithError_withoutMessageError_fixedLengthLessThenZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AimbraValidationEntries" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aimbraFluent.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testLengthNotEquals_WithError_withoutMessageError_fixedLengthNotEquals" />
+      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TextValidationTest.testLengthNotEquals_WithError_withMessageError_fixedLengthEquals" />
-        <item itemvalue="JUnit.TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthEquals" />
-        <item itemvalue="JUnit.TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthNotEquals" />
-        <item itemvalue="JUnit.TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthLessThenZero" />
-        <item itemvalue="JUnit.TextValidationTest.testLengthNotEquals_WithError_withoutMessageError_fixedLengthIsNull" />
+        <item itemvalue="JUnit.TextValidationTest" />
+        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals" />
+        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals" />
+        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals" />
+        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero" />
       </list>
     </recent_temporary>
   </component>
@@ -194,12 +193,25 @@
       <workItem from="1577507532927" duration="5320000" />
       <workItem from="1577552118190" duration="7605000" />
       <workItem from="1577627541683" duration="11619000" />
-      <workItem from="1577650888677" duration="3081000" />
+      <workItem from="1577650888677" duration="3155000" />
+      <workItem from="1577670571132" duration="893000" />
     </task>
+    <task id="LOCAL-00001" summary="Validando sizeIsNotEquals com teste">
+      <created>1577655509900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577655509900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Validando sizeIsNotEquals com teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validando sizeIsNotEquals com teste" />
   </component>
   <component name="WindowStateProjectService">
     <state x="873" y="360" key="#Project_Structure" timestamp="1577507559328">
@@ -218,42 +230,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1078" y="561" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1577552185711" />
+    <state x="1182" y="155" key="CommitChangelistDialog2" timestamp="1577655509151">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1182" y="155" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1577655509151" />
     <state width="401" height="466" key="DebuggerActiveHint" timestamp="1577631466886">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="401" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1577631466886" />
-    <state width="2517" height="357" key="GridCell.Tab.0.bottom" timestamp="1577655477013">
+    <state width="2517" height="357" key="GridCell.Tab.0.bottom" timestamp="1577671450961">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="357" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577655477013" />
-    <state width="2517" height="357" key="GridCell.Tab.0.center" timestamp="1577655477013">
+    <state width="2517" height="357" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577671450961" />
+    <state width="2517" height="357" key="GridCell.Tab.0.center" timestamp="1577671450961">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="357" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577655477013" />
-    <state width="2517" height="357" key="GridCell.Tab.0.left" timestamp="1577655477013">
+    <state width="2517" height="357" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577671450961" />
+    <state width="2517" height="357" key="GridCell.Tab.0.left" timestamp="1577671450961">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="357" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577655477013" />
-    <state width="2517" height="357" key="GridCell.Tab.0.right" timestamp="1577655477013">
+    <state width="2517" height="357" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577671450961" />
+    <state width="2517" height="357" key="GridCell.Tab.0.right" timestamp="1577671450961">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="357" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577655477013" />
-    <state width="2517" height="464" key="GridCell.Tab.1.bottom" timestamp="1577654522005">
+    <state width="2517" height="357" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577671450961" />
+    <state width="2517" height="464" key="GridCell.Tab.1.bottom" timestamp="1577671227083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="464" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577654522005" />
-    <state width="2517" height="464" key="GridCell.Tab.1.center" timestamp="1577654522005">
+    <state width="2517" height="464" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577671227083" />
+    <state width="2517" height="464" key="GridCell.Tab.1.center" timestamp="1577671227083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="464" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577654522005" />
-    <state width="2517" height="464" key="GridCell.Tab.1.left" timestamp="1577654522005">
+    <state width="2517" height="464" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577671227083" />
+    <state width="2517" height="464" key="GridCell.Tab.1.left" timestamp="1577671227083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="464" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577654522005" />
-    <state width="2517" height="464" key="GridCell.Tab.1.right" timestamp="1577654522005">
+    <state width="2517" height="464" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577671227083" />
+    <state width="2517" height="464" key="GridCell.Tab.1.right" timestamp="1577671227083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="464" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577654522005" />
+    <state width="2517" height="464" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577671227083" />
     <state x="811" y="357" key="Maven.ArtifactSearchDialog" timestamp="1577507654503">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -262,6 +278,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="761" y="276" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577643617446" />
+    <state x="873" y="435" key="Vcs.Push.Dialog.v2" timestamp="1577655518274">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="435" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1577655518274" />
     <state x="977" y="526" key="com.intellij.ide.util.TipDialog" timestamp="1577650891580">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

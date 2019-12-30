@@ -469,7 +469,7 @@ class TextValidationTest {
     }
 
     @Test
-    void testLengthNotEquals_WithError_withoutMessageError_fixedLengthIsNull() {
+    void testSizeIsNotIqualsTo_WithError_withoutMessageError_fixedLengthIsNull() {
         UserEntity entity = oneUser().now();
         Integer fixedLength = null;
         String expectedMessageError = "Fixed length is null!";
@@ -485,7 +485,7 @@ class TextValidationTest {
     }
 
     @Test
-    void testLengthNotEquals_WithError_withoutMessageError_fixedLengthLessThenZero() {
+    void testSizeIsNotIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero() {
         UserEntity entity = oneUser().now();
         Integer fixedLength = -1;
         String expectedMessageError = "The value is less than zero";
@@ -501,10 +501,10 @@ class TextValidationTest {
     }
 
     @Test
-    void testLengthNotEquals_WithError_withoutMessageError_fixedLengthNotEquals() {
+    void testSizeIsNotIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals() {
         UserEntity entity = oneUser().now();
         Integer fixedLength = 6;
-        String expectedMessageError = "The size is not equals";
+        String expectedMessageError = "The size is equals";
         String responseMessageError = assertThrows(BadRequestException.class, () -> {
             Boolean response = TextValidationImpl.init()
                     .whereValueIs(entity.getUsername())
@@ -517,7 +517,7 @@ class TextValidationTest {
     }
 
     @Test
-    void testLengthNotEquals_WithError_withoutMessageError_fixedLengthEquals() {
+    void testSizeIsNotIqualsTo_WithError_withoutMessageError_fixedLengthEquals() {
         UserEntity entity = oneUser().now();
         Integer fixedLength = 11;
         Boolean response = TextValidationImpl.init()
@@ -530,7 +530,7 @@ class TextValidationTest {
     }
 
     @Test
-    void testLengthNotEquals_WithError_withMessageError_fixedLengthEquals() {
+    void testSizeIsNotIqualsTo_WithError_withMessageError_fixedLengthEquals() {
         UserEntity entity = oneUser().now();
         Integer fixedLength = 6;
         String responseMessageError = assertThrows(BadRequestException.class, () -> {
@@ -539,6 +539,73 @@ class TextValidationTest {
                     .whereMessageErrorIs(MESSAGE_ERROR)
                     .whereFixedLentghIs(fixedLength)
                     .sizeIsNotIqualsTo()
+                    .isValid();
+        }).getMessage();
+
+        assertThat(responseMessageError, is(MESSAGE_ERROR));
+    }
+
+
+
+
+    @Test
+    void testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthIsNull() {
+        UserEntity entity = oneUser().now();
+        Integer fixedLength = null;
+        String expectedMessageError = "Fixed length is null!";
+        String responseMessageError = assertThrows(BadRequestException.class, () -> {
+            Boolean response = TextValidationImpl.init()
+                    .whereValueIs(entity.getUsername())
+                    .whereMessageErrorIs(null)
+                    .whereFixedLentghIs(fixedLength)
+                    .sizeIsIqualsTo()
+                    .isValid();
+        }).getMessage();
+        assertThat(responseMessageError, is(expectedMessageError));
+    }
+
+    @Test
+    void testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero() {
+        UserEntity entity = oneUser().now();
+        Integer fixedLength = -1;
+        String expectedMessageError = "The value is less than zero";
+        String responseMessageError = assertThrows(BadRequestException.class, () -> {
+            Boolean response = TextValidationImpl.init()
+                    .whereValueIs(entity.getUsername())
+                    .whereMessageErrorIs(null)
+                    .whereFixedLentghIs(fixedLength)
+                    .sizeIsIqualsTo()
+                    .isValid();
+        }).getMessage();
+        assertThat(responseMessageError, is(expectedMessageError));
+    }
+
+    @Test
+    void testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals() {
+        UserEntity entity = oneUser().now();
+        Integer fixedLength = 11;
+        String expectedMessageError = "The size is equals";
+        String responseMessageError = assertThrows(BadRequestException.class, () -> {
+            Boolean response = TextValidationImpl.init()
+                    .whereValueIs(entity.getUsername())
+                    .whereMessageErrorIs(null)
+                    .whereFixedLentghIs(fixedLength)
+                    .sizeIsIqualsTo()
+                    .isValid();
+        }).getMessage();
+        assertThat(responseMessageError, is(expectedMessageError));
+    }
+
+    @Test
+    void testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals() {
+        UserEntity entity = oneUser().now();
+        Integer fixedLength = 11;
+        String responseMessageError = assertThrows(BadRequestException.class, () -> {
+            Boolean response = TextValidationImpl.init()
+                    .whereValueIs(entity.getUsername())
+                    .whereMessageErrorIs(MESSAGE_ERROR)
+                    .whereFixedLentghIs(fixedLength)
+                    .sizeIsIqualsTo()
                     .isValid();
         }).getMessage();
 

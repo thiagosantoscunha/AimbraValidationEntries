@@ -149,14 +149,24 @@ public class TextValidationImpl implements TextValidation {
             if (messageError != null) {
                 throw new BadRequestException(messageError);
             }
-            throw new BadRequestException("The size is not equals");
+            throw new BadRequestException("The size is equals");
         }
         return this;
     }
 
     @Override
     public TextValidation sizeIsIqualsTo() {
-        return null;
+        if (fixedLength == null) {
+            throw new BadRequestException("Fixed length is null!");
+        }
+        isLessThenZero(fixedLength);
+        if (fixedLength.equals(value.length())) {
+            if (messageError != null) {
+                throw new BadRequestException(messageError);
+            }
+            throw new BadRequestException("The size is equals");
+        }
+        return this;
     }
 
 
