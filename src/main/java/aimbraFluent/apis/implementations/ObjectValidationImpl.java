@@ -1,6 +1,6 @@
-package aimbraFluent.services.implementations;
+package aimbraFluent.apis.implementations;
 
-import aimbraFluent.services.ObjectValidation;
+import aimbraFluent.apis.ObjectValidation;
 import aimbraFluent.exceptions.BadRequestException;
 
 public class ObjectValidationImpl implements ObjectValidation {

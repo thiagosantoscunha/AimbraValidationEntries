@@ -1,7 +1,7 @@
-package aimbraFluent.services.implementations;
+package aimbraFluent.apis.implementations;
 
 
-import aimbraFluent.services.DataValidation;
+import aimbraFluent.apis.DataValidation;
 import aimbraFluent.exceptions.BadRequestException;
 
 import java.text.ParseException;

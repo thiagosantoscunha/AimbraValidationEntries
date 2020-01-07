@@ -1,4 +1,4 @@
-package aimbraFluent.services;
+package aimbraFluent.apis;
 
 public interface TextValidation {
     Boolean isValid();
@@ -15,8 +15,4 @@ public interface TextValidation {
     TextValidation hasInvalidLength();
     TextValidation sizeIsNotIqualsTo();
     TextValidation sizeIsIqualsTo();
-//    boolean invalidLength(String text, Integer minLength, Integer maxLength, String messageError);
-//    boolean invalidLength(String text, String operator, Integer length);
-//    boolean invalidLength(String text, String operator, Integer length, String messageError);
-
 }

@@ -1,16 +1,16 @@
-package aimbraFluent.services.implementations;
+package aimbraFluent.apis.implementations;
 
-import aimbraFluent.services.NumberValidation;
 import aimbraFluent.exceptions.BadRequestException;
+import aimbraFluent.apis.NumberValidation;
 
 public class NumberValidationImpl implements NumberValidation {
     @Override
-    public boolean isNull(Number value) {
+    public boolean isNull(final Number value) {
         return value == null;
     }
 
     @Override
-    public void isNull(Number value, String messageError) {
+    public void isNull(final Number value, final String messageError) {
         if (isNull(value)) {
             if (messageError != null) {
                 throw new BadRequestException(messageError);
@@ -19,12 +19,12 @@ public class NumberValidationImpl implements NumberValidation {
     }
 
     @Override
-    public boolean isNotNull(Number value) {
+    public boolean isNotNull(final Number value) {
         return !isNull(value);
     }
 
     @Override
-    public void isNotNull(Number value, String messageError) {
+    public void isNotNull(final Number value, final String messageError) {
         if (isNotNull(value)) {
             if (messageError != null) {
                 throw new BadRequestException(messageError);

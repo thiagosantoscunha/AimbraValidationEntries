@@ -1,4 +1,4 @@
-package aimbraFluent.services;
+package aimbraFluent.apis;
 
 public interface ObjectValidation {
     boolean isNull(Object o);

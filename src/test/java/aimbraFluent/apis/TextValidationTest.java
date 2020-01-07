@@ -1,8 +1,8 @@
-package aimbraFluent.services;
+package aimbraFluent.apis;
 
 import aimbraFluent.entities.UserEntity;
 import aimbraFluent.exceptions.BadRequestException;
-import aimbraFluent.services.implementations.TextValidationImpl;
+import aimbraFluent.apis.implementations.TextValidationImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

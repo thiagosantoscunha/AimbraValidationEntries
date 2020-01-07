@@ -1,8 +1,8 @@
-package aimbraFluent.services.implementations;
+package aimbraFluent.apis.implementations;
 
 
 import aimbraFluent.exceptions.BadRequestException;
-import aimbraFluent.services.TextValidation;
+import aimbraFluent.apis.TextValidation;
 
 public class TextValidationImpl implements TextValidation {
 

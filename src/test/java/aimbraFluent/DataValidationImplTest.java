@@ -1,8 +1,8 @@
 package aimbraFluent;
 
 import aimbraFluent.exceptions.BadRequestException;
-import aimbraFluent.services.implementations.DataValidationImpl;
-import aimbraFluent.services.DataValidation;
+import aimbraFluent.apis.implementations.DataValidationImpl;
+import aimbraFluent.apis.DataValidation;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

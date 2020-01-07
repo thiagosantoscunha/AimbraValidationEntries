@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b38e10-44ee-4c87-b0f9-fb555129e945" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/CPFService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/CPFServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/CPFServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimbraValidationEntries.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/TextValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/TextValidationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/TextValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/TextValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/TextValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aimbraFluent/services/TextValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/TextValidationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/TextValidationImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aimbraFluent/services/TextValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aimbraFluent/services/TextValidationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/DataValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/DataValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/NumberValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/NumberValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/ObjectValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/ObjectValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/TextValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/TextValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/DataValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/implementations/DataValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/NumberValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/implementations/NumberValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/ObjectValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/implementations/ObjectValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aimbraFluent/services/implementations/TextValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aimbraFluent/apis/implementations/TextValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/aimbraFluent/DataValidationImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/DataValidationImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/aimbraFluent/services/TextValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aimbraFluent/apis/TextValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AimbraValidationEntries.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/AimbraValidationEntries.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/DataValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/NumberValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/ObjectValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/TextValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/DataValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/NumberValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/ObjectValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aimbraFluent/services/implementations/TextValidationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AimbraValidationEntries.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/AimbraValidationEntries.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aimbraFluent/DataValidationImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aimbraFluent/DataValidationImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aimbraFluent/services/TextValidationTest.class" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,7 +60,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Vb2ZaeQl31YJqQ1SHh8TSmUDnp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,7 +80,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -65,21 +90,33 @@
       <recent name="aimbraFluent.services" />
       <recent name="aimbraFluent" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="aimbraFluent.exceptions" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="aimbraFluent" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\thiag\Desktop\AimbraValidationEntries\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="aimbraFluent.exceptions" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thiag\Desktop\AimbraValidationEntries\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TextValidationTest">
-    <configuration name="TextValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CPFServiceImplTest.testIsNotBlacklist">
+    <configuration name="CPFServiceImplTest.testIsBlacklist_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -88,29 +125,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AimbraValidationEntries" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aimbraFluent.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.CPFServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsBlacklist_6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CPFServiceImplTest.testIsBlacklist_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +141,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.CPFServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsBlacklist_7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CPFServiceImplTest.testIsBlacklist_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -135,14 +157,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.CPFServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsBlacklist_8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CPFServiceImplTest.testIsBlacklist_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AimbraValidationEntries" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +173,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aimbraFluent.services" />
-      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.TextValidationTest" />
-      <option name="METHOD_NAME" value="testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.CPFServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsBlacklist_9" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPFServiceImplTest.testIsNotBlacklist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AimbraValidationEntries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aimbraFluent.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aimbraFluent.services" />
+      <option name="MAIN_CLASS_NAME" value="aimbraFluent.services.CPFServiceImplTest" />
+      <option name="METHOD_NAME" value="testIsNotBlacklist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,25 +198,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TextValidationTest" />
-        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthEquals" />
-        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withMessageError_fixedLengthEquals" />
-        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthNotEquals" />
-        <item itemvalue="JUnit.TextValidationTest.testSizeIsIqualsTo_WithError_withoutMessageError_fixedLengthLessThenZero" />
+        <item itemvalue="JUnit.CPFServiceImplTest.testIsNotBlacklist" />
+        <item itemvalue="JUnit.CPFServiceImplTest.testIsBlacklist_9" />
+        <item itemvalue="JUnit.CPFServiceImplTest.testIsBlacklist_8" />
+        <item itemvalue="JUnit.CPFServiceImplTest.testIsBlacklist_7" />
+        <item itemvalue="JUnit.CPFServiceImplTest.testIsBlacklist_6" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -195,6 +221,7 @@
       <workItem from="1577627541683" duration="11619000" />
       <workItem from="1577650888677" duration="3155000" />
       <workItem from="1577670571132" duration="893000" />
+      <workItem from="1578424002443" duration="6956000" />
     </task>
     <task id="LOCAL-00001" summary="Validando sizeIsNotEquals com teste">
       <created>1577655509900</created>
@@ -208,6 +235,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Validando sizeIsNotEquals com teste" />
@@ -300,14 +338,14 @@
     <state x="937" y="331" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1577642954070" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AimbraValidationEntries$DataValidationImplTest.ic" NAME="DataValidationImplTest Coverage Results" MODIFIED="1577512499640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>aimbraFluent.*</FILTER>
+    <SUITE FILE_PATH="coverage/AimbraValidationEntries$TextValidationTest.ic" NAME="TextValidationTest Coverage Results" MODIFIED="1577630329621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aimbraFluent.services.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AimbraValidationEntries$TextValidationTest_isNull_HasError_WithoutMessageError.ic" NAME="TextValidationTest.isNull_HasError_WithoutMessageError Coverage Results" MODIFIED="1577643242043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>aimbraFluent.services.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AimbraValidationEntries$TextValidationTest.ic" NAME="TextValidationTest Coverage Results" MODIFIED="1577630329621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>aimbraFluent.services.*</FILTER>
+    <SUITE FILE_PATH="coverage/AimbraValidationEntries$DataValidationImplTest.ic" NAME="DataValidationImplTest Coverage Results" MODIFIED="1577512499640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aimbraFluent.*</FILTER>
     </SUITE>
   </component>
 </project>

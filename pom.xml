@@ -8,6 +8,22 @@
     <artifactId>AimbraValidationEntries</artifactId>
     <version>0.1.2</version>
 
+    <name>Aimbra Validation Entries</name>
+    <description>API that validates the integrity of various data types.</description>
+    <url>http://aimbra.com</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://svn.apache.org/viewvc/maven</url>
+    </scm>
+
     <properties>
         <java.version>13</java.version>
     </properties>
